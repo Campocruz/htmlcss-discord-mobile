@@ -58,6 +58,7 @@ body {
 .card {
   max-height: 300rem;
   max-width: 500px;
+  margin: 2.5rem 0.8rem;
   border: 1px solid black;
   border-radius: 2rem;
   background-color: rgb(111, 111, 221);
