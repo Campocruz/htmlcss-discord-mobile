@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 512px;
+  min-width: 512px;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ body {
   height: 12rem;
   background-image: url(../img/banner.png);
   background-size: contain;
-  background-size: 512px 13rem;
+  background-size: 100% 13rem;
   background-repeat: no-repeat;
 }
 
@@ -56,12 +56,12 @@ body {
 }
 
 .card {
-  max-height: 300rem;
-  max-width: 500px;
-  margin: 2.5rem 0.8rem;
-  border: 1px solid black;
+  height: 35rem;
+  width: 28rem;
+  margin-bottom: 2rem;
   border-radius: 2rem;
   background-color: rgb(111, 111, 221);
+  text-align: center;
 }
 
 .card_title {
