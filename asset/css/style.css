@@ -11,11 +11,11 @@ body {
 }
 
 #site_header {
+  position: sticky;
   height: 12rem;
   background-image: url(../img/banner.png);
   background-size: contain;
   background-size: 100% 13rem;
-  background-repeat: no-repeat;
 }
 
 #site_main {
@@ -67,6 +67,7 @@ body {
 }
 
 .card {
+  position: relative;
   min-height: 35rem;
   width: 28rem;
   margin-bottom: 3rem;
