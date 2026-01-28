@@ -21,7 +21,7 @@ body {
   max-height: 15rem;
 }
 
-#site_main {
+.site_main {
   background-color: var(--page_background)
 }
 
@@ -117,4 +117,22 @@ body {
   max-height: 18rem;
   border-radius: 4rem;
   text-align: center;
+}
+
+.login_area{
+  display: block;
+}
+
+.login_input {
+  display: block;
+  max-width: 512px;
+  margin: 0 auto;
+  height: 2.5rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  cursor: pointer;
 }
