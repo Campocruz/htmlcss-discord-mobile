@@ -58,6 +58,7 @@ body {
   padding: 0.5rem;
   font-family: "DM Sans", sans-serif;
   text-align: center;
+  cursor: pointer;
 }
 
 #download_button {
