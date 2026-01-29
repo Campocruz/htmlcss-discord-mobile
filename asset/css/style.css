@@ -7,12 +7,22 @@
 
 :root {
   --page_background: rgb(32, 32, 150);
+  --page_jumbotron: rgba(32, 32, 150, 0.542);
   --page_text: white;
+}
+
+html{
+  background-color: var(--page_jumbotron);
 }
 
 body {
   max-width: 512px;
+  height: 100dvh;
   margin: 0 auto;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: var(--page_background);
+
+
 }
 
 .site_banner{
@@ -22,7 +32,7 @@ body {
 }
 
 .site_main {
-  background-color: var(--page_background)
+  background-color: var(--page_background);
 }
 
 #intro {
@@ -99,12 +109,12 @@ body {
   font-family: "Sigmar", sans-serif;
   text-align: left;
   text-transform: uppercase;
-  padding: 3rem;
-  line-height: 2rem;
+  padding: 3rem 2rem 1rem;
+  line-height: 1.5rem;
 }
 
 .p_card {
-  padding: 0rem 3rem;
+  padding: 0rem 3rem 2rem;
   color: white;
   font-family: "DM Sans", sans-serif;
   text-align: center;
@@ -121,6 +131,14 @@ body {
 
 .login_area{
   display: block;
+  padding: 4rem;
+  text-align: center;
+}
+
+h3{
+  color: var(--page_text);
+  padding-bottom: 1rem;
+  line-height: 1.8rem;
 }
 
 .login_input {
@@ -135,4 +153,12 @@ body {
   font-family: "DM Sans", sans-serif;
   text-align: center;
   cursor: pointer;
+}
+
+.link_tool_page{
+  display: block;
+  position: relative;
+  left: 2rem;
+  color: var(--page_text);
+  text-align: left;
 }
