@@ -21,14 +21,14 @@ body {
   margin: 0 auto;
   box-shadow: 0px 0px 10px #000000;
   background-color: var(--page_background);
-
-
+  border-radius: 1rem;
 }
 
 .site_banner{
   display: block;
   min-width: 512px;
   max-height: 15rem;
+  border-radius: 1rem;
 }
 
 .site_main {
@@ -93,6 +93,7 @@ body {
   background: linear-gradient(180deg,rgba(95, 102, 214, 0.9) 0%,rgba(95, 102, 214, 0.6) 60%,rgba(95, 102, 214, 0.3) 100%);
   text-align: center;
   color: white;
+  box-shadow: 0px 0px 10px #000000;
 }
 
 .icon_card {
